@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Text Analyzer</title>
+    <style>
+		* { overflow: hidden }
+
+		body {
+			width: 100vw;
+			height: 100vh;
+			margin: 0;
+			display: flex;
+			justify-content: center;
+		}
+
+		main {
+			width: 100%;
+			max-width: 640px;
+			height: 100%;
+			border-left: 1px solid black;
+			border-right: 1px solid black;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+		}
+
+		section { height: 100% }
+
+		input {
+			width: 100%;
+			height: 36px;
+			padding: 12px;
+			border: none;
+			border-top: 1px solid black;
+			font-family: monospace;
+			font-size: 21px;
+		}
+    </style>
+  </head>
+  <body>
+    <main>
+		<section></section>
+		<input />
+    </main>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
