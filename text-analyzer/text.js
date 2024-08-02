@@ -157,23 +157,4 @@ const texts = [
 	}
 ]
 
-// command: 1-w:p r - = Replace every first word of paragraph with '-'
-
-const command = (ipt) => {
-	const tokens = ipt.split(' ')
-}
-
-const word = (text) => text.split(/[ .?!:;,'"\n]/)
-
-const sentence = (text) => text.split(/\n+/).map(p => p.split(/[?!.]+/))
-
-const paragraph = (text) => text.split(/\n+/)
-
-const analyzer = {
-	wrd:
-}
-
-export default { texts, analyzer }
-
-
-'
+export default texts
