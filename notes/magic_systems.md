@@ -54,6 +54,8 @@ Presence: locations and concentrations of essences
 Note:
 1. Mappings are dynamic and change even amidst access
 2. Time is a concept and so doesn't exist as a focal
+3. Identifying places, events, and processes requires access to a satellite
+   Unless one can use one's own perception (same process: 3-6)
 
 ### Lexicon
 in:
